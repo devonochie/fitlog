@@ -1,32 +1,67 @@
-# Workout Tracker
+# 🏋️‍♂️ FitLog API
 
-A backend system for a workout tracker application where users can sign up, log in, create workout plans, and track their progress. The application features JWT authentication and RESTful API endpoints for managing workouts.
+**FitLog API** is the backend service for a workout tracking application. It provides secure and scalable endpoints to log workouts, manage exercises, track progress, and support user accounts.
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-  - [Authentication](#authentication)
-  - [Workout Management](#workout-management)
-  - [Reports](#reports)
-- [Testing](#testing)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
-## Features
-- User authentication with JWT
-- CRUD operations for workouts
-- Scheduling workouts
-- Generate reports on past workouts and user progress
+## ⚙️ Features
 
-## Installation
+- 🔐 JWT-based user authentication
+- 🏋️ CRUD operations for workouts and exercises
+- 📆 Workout tracking by date
+- 📈 Progress summaries and filtering
+- 🧾 Workout templates (optional)
+- 🧪 Built-in testing with Jest + Supertest
+- 🌐 RESTful JSON API
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/workout-tracker.git
-   cd workout-tracker
-# workout-tracker-app
-# workout-tracker-app
-# fitlog
+---
+
+## 🧱 Tech Stack
+
+- **Runtime:** Node.js
+- **Framework:** Express.js
+- **Database:** MongoDB + Mongoose
+- **Authentication:** JWT
+- **Validation:** Joi / express-validator
+- **Testing:** Jest + Supertest
+- **Docs:** Swagger / Postman (optional)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/devonochie/fitlog-api.git
+
+cd fitlog-api
+
+# Install dependencies
+npm install
+
+# Copy and configure environment variables
+cp .env.example .env
+
+# Start the development server
+npm run dev
+
+🧪 Testing with Jest
+Run All Tests
+bash
+Copy code
+npm run test
+Run Tests in Watch Mode
+bash
+Copy code
+npm run test:watch
+
+🧩 Contributing
+Fork this repo and open a PR!
+Please use meaningful commit messages and follow the existing code style.
+
+📄 License
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+Devon Onochie
+GitHub: @devonochie
